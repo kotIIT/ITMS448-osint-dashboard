@@ -64,7 +64,7 @@ This web UI must be built using `npm` as described in the "Web UI" section.
 
 ##### Heroku instance
 
-Alternatively, <http://bowser-webapi.herokuapp.com/api> can be used if you need to access it over the internet and not locally.
+Alternatively, <http://bowser-webapi.herokuapp.com> can be used if you need to access it over the internet and not locally.
 
 The Heroku app may fail due to Cloudflare WAF blocking Heroku's IPs. Running it locally should prevent this.
 

@@ -30,4 +30,5 @@ values = [df[header].sum() for header in column_headers_content_flagger]
 plt.pie(values, labels=values)
 plt.title("Detection breakdown by category, with benign posts")
 plt.legend(labels, loc=10)
+plt.savefig(fname=(__file__ + ".out.png"))
 plt.show()

@@ -14,4 +14,5 @@ for countrycode, count in country_code_counts.items():
 plt.pie(country_code_counts.values, labels=list(country_code_counts.keys()))
 plt.title("Post amount by country code")
 plt.legend(country_code_counts.values, loc=3)
+plt.savefig(fname=(__file__ + ".out.png"))
 plt.show()
