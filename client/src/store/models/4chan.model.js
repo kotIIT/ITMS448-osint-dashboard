@@ -2,13 +2,14 @@ import fetchHelper from "helpers/fetchHelper";
 import { thunk, action, actionOn, thunkOn, computed, debug } from "easy-peasy";
 import { tableHeaderNames } from "variables/general";
 
+//TODO: This whole file has loads of copy-paste and lots of repetition.
 const postsModel = {
   headers: [],
   data: [],
   boards: {},
   threads: {},
   postAnaylzed: 0,
-  terroismFlagCount: 0,
+  terroismFlagCount: 0, //TODO: These should not be hardcoded! The API provides these categories.
   nsaPrismFlagCount: 0,
   nsaEchelonFlagCount: 0,
   hateSpeechFlagCount: 0,
@@ -31,7 +32,7 @@ const postsModel = {
     actions.analyzeBoards({ ...data }); // 👈 dispatch local actions to update state
     actions.analyzeTerroismFlag({ ...data });
     actions.analyzeNsaPrismFlag({ ...data });
-    actions.analyzeNsaEchelonFlag({ ...data });
+    actions.analyzeNsaEchelonFlag({ ...data }); //TODO: These should not be hardcoded! The API provides these categories.
     actions.analyzeHateSpeechFlag({ ...data });
     actions.analyzeRacismFlag({ ...data });
     actions.analyzeConspiracyFlag({ ...data });
@@ -177,6 +178,7 @@ const postsModel = {
 
     state.terroismFlagCount = count;
   }),
+  //TODO: These should not be hardcoded! The API provides these categories.
   analyzeNsaPrismFlag: action((state, payload) => {
     let count = 0;
     let feild = "";
@@ -214,6 +216,7 @@ const postsModel = {
       state.nsaPrismFlagCount = count;
     }
   }),
+  //TODO: These should not be hardcoded! The API provides these categories.
   analyzeNsaEchelonFlag: action((state, payload) => {
     let count = 0;
     let feild = "";
@@ -251,6 +254,7 @@ const postsModel = {
       state.nsaEchelonFlagCount = count;
     }
   }),
+  //TODO: These should not be hardcoded! The API provides these categories.
   analyzeHateSpeechFlag: action((state, payload) => {
     let count = 0;
     let feild = "";
@@ -325,6 +329,7 @@ const postsModel = {
       state.racismFlagCount = count;
     }
   }),
+  //TODO: These should not be hardcoded! The API provides these categories.
   analyzeConspiracyFlag: action((state, payload) => {
     let count = 0;
     let feild = "";

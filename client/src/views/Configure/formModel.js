@@ -50,7 +50,7 @@ const validationSchema = yup.object().shape({
 const inputsModels = {
   hostSection: [
     {
-      id: "host-disabled",
+      id: "host",
       name: "host",
       label: "Host",
       type: "input",
@@ -59,12 +59,12 @@ const inputsModels = {
         fullWidth: true
       },
       inputProps: {
-        disabled: true
+        // disabled: true
       },
       component: "TextField"
     },
     {
-      id: "port-disabled",
+      id: "port",
       name: "port",
       label: "Port",
       type: "input",
@@ -73,7 +73,7 @@ const inputsModels = {
         fullWidth: true
       },
       inputProps: {
-        disabled: true
+        // disabled: true
       },
       component: "TextField"
     },
