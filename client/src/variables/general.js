@@ -23,7 +23,7 @@ const server = [
   'Sign contract for "What are conference organizers afraid of?"'
 ];
 
-const tableHeaderNames = {
+const tableHeaderNames = { //TODO: These should not be hardcoded! The API provides these categories.
   NoContent: "No content flagger tripped",
   ContentFlaggerNsaEchelon:
     "[content flagger] Contains keywords that may trigger NSA ECHELON filters",
