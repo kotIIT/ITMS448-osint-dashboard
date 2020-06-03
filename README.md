@@ -44,9 +44,9 @@ Edit the end of `bowser.py` to make larger CSV files or gather from different bo
 
 #### Web UI
 
-`cd client` and run `npm build`.
+`cd client` and run `npm run-script build`.
 
-This generates JS and HTML that will be served under `0.0.0.0:1839/` as Flask static files.
+This generates JS and HTML that will be served under `0.0.0.0:1839/` as Flask static files, when Flask is running.
 
 Alternatively, you can run `npm start` if you wish to run the web UI under Node.js.
 
@@ -70,7 +70,9 @@ The Heroku app may fail due to Cloudflare WAF blocking Heroku's IPs. Running it 
 
 ##### DigitalOcean instance
 
-<http://bowser-web-app.freemyip.com:1839> can be used with no restrictions to browse a live version of our project. Try going to `/api`!
+<strike><http://bowser-web-app.freemyip.com:1839> can be used with no restrictions to browse a live version of our project. Try going to `/api`!</strike>
+
+The DigitalOcean instance was shut down as I (Henry P) have graduated and do not want to pay for it. Please run it yourself if you want to use this project.
 
 ### The scrapy test
 
