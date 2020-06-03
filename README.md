@@ -12,6 +12,14 @@ The project's name is Bowser, named after [Mary Bowser](https://en.wikipedia.org
 
 We are focusing on domestic terrorism.
 
+## Images
+
+![](.screenshots/screen1.png)
+
+![](.screenshots/screen2.png)
+
+![](.screenshots/screen3.png)
+
 ## Setup
 
 Clone or download this repository.
