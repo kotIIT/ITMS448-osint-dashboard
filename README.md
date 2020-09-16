@@ -12,6 +12,10 @@ The project's name is Bowser, named after [Mary Bowser](https://en.wikipedia.org
 
 We are focusing on domestic terrorism.
 
+## Presentation
+
+[You can view our final presentation PDF here.](final-presentation.pdf)
+
 ## Images
 
 ![](.screenshots/screen1.png)
