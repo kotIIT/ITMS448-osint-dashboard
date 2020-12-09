@@ -142,15 +142,15 @@ Role: DevOps Engineer
 
 ### Cooper Van Kampen
 
-Role: Machine Learning AI Cloud Malware Devloper (Agile)
+Role: Cloud Developer, Backend Developer
 
 ### Daniel Denekew
 
-Role: Analysts - Big Data Generate Development
+Role: Data Analyst
 
 ### Rawad Alahmadi
 
-Role: Project Assistant, Machine Language Data Scientist
+Role: Assistant Project Manager, Data Scientist
 
 ### Robert Bacius
 
