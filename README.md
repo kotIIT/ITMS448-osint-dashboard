@@ -150,11 +150,11 @@ Role: Data Analyst
 
 ### Rawad Alahmadi
 
-Role: Assistant Project Manager, Data Scientist
+Role: Assistant Project Manager, Data Analyst
 
 ### Robert Bacius
 
-Role: Cloud AI Data Analysis
+Role: Data Analyst
 
 ## Extra Documentation
 
