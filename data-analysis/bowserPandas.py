@@ -31,17 +31,15 @@ print(f"{true_count_conspiracy} \t Contains Consipracy Theories")
 true_count_ECHELON = df["[content flagger] Contains keywords that may trigger NSA ECHELON filters"].sum()
 print(f"{true_count_ECHELON} \t  Contains NSA ECHELON keywords")
 
-
-
-
-
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
-labels = 'Hate Speech', 'Racism', 'Terrorism', 'Conspiracy','PRISM','ECHELON'
-Flagged = [true_count_hate, true_count_racist,true_count_terrorism, true_count_conspiracy, true_count_PRISM, true_count_ECHELON]
+labels = 'Hate Speech', 'Racism', 'Terrorism', 'Conspiracy', 'PRISM', 'ECHELON'
+Flagged = [true_count_hate, true_count_racist, true_count_terrorism, true_count_conspiracy, true_count_PRISM,
+		   true_count_ECHELON]
 explode = [0, 0, 0, 0, 0.01, 0.01]
 
 fig1, ax1 = plt.subplots()
 ax1.pie(Flagged, explode=explode, labels=labels, autopct='%1.1f%%', startangle=180)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
+plt.savefig(fname=(__file__ + ".out.png"))
 plt.show()

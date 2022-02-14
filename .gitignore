@@ -2,6 +2,7 @@
 __pycache__/
 *_cache.sqlite
 out/
+*.out.png
 .coverage
 .vscode/
 

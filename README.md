@@ -12,6 +12,18 @@ The project's name is Bowser, named after [Mary Bowser](https://en.wikipedia.org
 
 We are focusing on domestic terrorism.
 
+## Presentation
+
+[You can view our final presentation PDF here.](final-presentation.pdf)
+
+## Images
+
+![](.screenshots/screen1.png)
+
+![](.screenshots/screen2.png)
+
+![](.screenshots/screen3.png)
+
 ## Setup
 
 Clone or download this repository.
@@ -44,13 +56,13 @@ Edit the end of `bowser.py` to make larger CSV files or gather from different bo
 
 #### Web UI
 
-`cd client` and run `npm build`.
+`cd client` and run `npm run-script build`.
 
-This generates JS and HTML that will be served under `0.0.0.0:1839/` as Flask static files.
+This generates JS and HTML that will be served under `0.0.0.0:1839/` as Flask static files, when Flask is running.
 
 Alternatively, you can run `npm start` if you wish to run the web UI under Node.js.
 
-#### Web API/Alternate Web UI
+#### Web API/Static web interface
 
 `cd bowser`
 
@@ -60,15 +72,19 @@ This will start an HTTP API on <http://0.0.0.0:1839/api>.
 
 Also, a web UI from Node.js static files will be served on <http://0.0.0.0:1839/>.
 
+This web UI must be built using `npm` as described in the "Web UI" section.
+
 ##### Heroku instance
 
-Alternatively, <http://bowser-webapi.herokuapp.com/api> can be used if you need to access it over the internet and not locally.
+Alternatively, <http://bowser-webapi.herokuapp.com> can be used if you need to access it over the internet and not locally.
 
 The Heroku app may fail due to Cloudflare WAF blocking Heroku's IPs. Running it locally should prevent this.
 
 ##### DigitalOcean instance
 
-<http://bowser-web-app.freemyip.com:1839> can be used with no restrictions to browse a live version of our project. Try going to `/api`!
+<strike><http://bowser-web-app.freemyip.com:1839> can be used with no restrictions to browse a live version of our project. Try going to `/api`!</strike>
+
+The DigitalOcean instance was shut down as I (Henry P) have graduated and do not want to pay for it. Please run it yourself if you want to use this project.
 
 ### The scrapy test
 
@@ -126,19 +142,19 @@ Role: DevOps Engineer
 
 ### Cooper Van Kampen
 
-Role: Machine Learning AI Cloud Malware Devloper (Agile)
+Role: Cloud Developer, Backend Developer
 
 ### Daniel Denekew
 
-Role: Analysts - Big Data Generate Development
+Role: Data Analyst
 
 ### Rawad Alahmadi
 
-Role: Project Assistant, Machine Language Data Scientist
+Role: Assistant Project Manager, Data Analyst
 
 ### Robert Bacius
 
-Role: Cloud AI Data Analysis
+Role: Data Analyst
 
 ## Extra Documentation
 
